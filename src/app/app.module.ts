@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ExampleNg6LibModule} from 'example-ng6-lib';
-import { TechverxLib7479Module} from 'techverx-lib7479';
+import { LibTechverxlibModule} from 'lib-techverxlib';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { TechverxLib7479Module} from 'techverx-lib7479';
   imports: [
     BrowserModule,
     ExampleNg6LibModule,
-    TechverxLib7479Module
+    LibTechverxlibModule
   ],
   providers: [],
   bootstrap: [AppComponent]

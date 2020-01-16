@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TechverxLib7479Component } from './techverx-lib7479.component';
+import { LibTechverxlibComponent } from './lib-techverxlib.component';
 
-describe('TechverxLib7479Component', () => {
-  let component: TechverxLib7479Component;
-  let fixture: ComponentFixture<TechverxLib7479Component>;
+describe('LibTechverxlibComponent', () => {
+  let component: LibTechverxlibComponent;
+  let fixture: ComponentFixture<LibTechverxlibComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TechverxLib7479Component ]
+      declarations: [ LibTechverxlibComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TechverxLib7479Component);
+    fixture = TestBed.createComponent(LibTechverxlibComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

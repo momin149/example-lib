@@ -1,0 +1,27 @@
+{
+  "name": "momin-techverx-lib",
+  "version": "0.0.1",
+  "description":"A Test Library.",
+  "author": "Momin Techverx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/momin149/example-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/momin149/example-lib/issues"
+  },
+  "homepage": "https://github.com/momin149/example-lib",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "typeahead",
+    "directive",
+    "angular-material"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14"
+  }
+}

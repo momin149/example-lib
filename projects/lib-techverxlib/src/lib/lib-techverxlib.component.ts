@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'techverx-techverx-lib7479',
+  selector: 'techverx-lib-techverxlib',
   template: `
     <p>
-      techverx-lib7479 works!
+      lib-techverxlib works!
     </p>
   `,
   styles: []
 })
-export class TechverxLib7479Component implements OnInit {
+export class LibTechverxlibComponent implements OnInit {
 
   constructor() { }
 

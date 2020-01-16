@@ -30,6 +30,12 @@
       ],
       "techverx-lib7479/*": [
         "dist/techverx-lib7479/*"
+      ],
+      "lib-techverxlib": [
+        "dist/lib-techverxlib"
+      ],
+      "lib-techverxlib/*": [
+        "dist/lib-techverxlib/*"
       ]
     }
   },
