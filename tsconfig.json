@@ -24,6 +24,12 @@
       ],
       "example-ng6-lib/*": [
         "dist/example-ng6-lib/*"
+      ],
+      "techverx-lib7479": [
+        "dist/techverx-lib7479"
+      ],
+      "techverx-lib7479/*": [
+        "dist/techverx-lib7479/*"
       ]
     }
   },

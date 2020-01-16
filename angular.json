@@ -155,6 +155,41 @@
           }
         }
       }
+    },
+    "techverx-lib7479": {
+      "projectType": "library",
+      "root": "projects/techverx-lib7479",
+      "sourceRoot": "projects/techverx-lib7479/src",
+      "prefix": "techverx",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/techverx-lib7479/tsconfig.lib.json",
+            "project": "projects/techverx-lib7479/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/techverx-lib7479/src/test.ts",
+            "tsConfig": "projects/techverx-lib7479/tsconfig.spec.json",
+            "karmaConfig": "projects/techverx-lib7479/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/techverx-lib7479/tsconfig.lib.json",
+              "projects/techverx-lib7479/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "example-ng6-lib-app"
 }
