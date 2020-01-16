@@ -1,0 +1,9 @@
+::ng-deep .loader-wrapper .spinner-grow {
+    width: 2rem !important;
+    height: 2rem !important;
+    background-color: blue !important;
+  }
+
+  ::ng-deep .spinner-grow {
+    background-color: blue !important;
+  }
